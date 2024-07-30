@@ -12,6 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { EditorComponent } from './editor/editor.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 
@@ -31,6 +32,7 @@ import { EditorComponent } from './editor/editor.component';
     ReactiveFormsModule,
     MatButtonModule,
     MatInputModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
